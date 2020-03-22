@@ -72,6 +72,30 @@ int main()
    }
    
    ================================
+   
+   //3.Throw multiple exceptions
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+   #include<iostream>
+   using namespace std;
+   
+   void num(int k)
+   {
+     try{
+     if(k==0)
+     {
+       throw k;
+     }
+     else if(k>0) 
+     {
+       throw p;
+     }
+     else if(k<0)
+     {
+       throw O;
+     }
+     cout<<"\n *********try Block***********"<<endl;
+    }
  
  
    
