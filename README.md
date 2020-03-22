@@ -35,16 +35,16 @@ int main()
   
   ===================
   
-  //2.To define function that generates exception
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
+  
+//2.To define function that generates exception
+  ~~~~~~~~~~~~~~~~~~~~~~
   #include<iostream>
   void sqr()
   {
     int s;
     cout<<"\n Enter the number";
     cin>>s;
-   
     if(s>0)
     {
        cout<<"\n Square="<<s*s;
